@@ -1536,6 +1536,17 @@ class CountryIsoCode{
     );
 
     /**
+     * Get all countries
+     *
+     * @return array
+     */
+    public static function getCountries()
+    {
+        return self::$countries;
+    }
+
+    /**
+     * Get country by ISO 3166-1 english name
      * @param $name
      * @return array|null
      */
@@ -1543,7 +1554,7 @@ class CountryIsoCode{
     {
         foreach(self::$countries as $key => $val)
         {
-            if($val['country'] == ucfirst(strtolower($name)))
+            if(strtolower($val['country']) === strtolower($name))
                 return self::$countries[$key];
         }
         return null;
