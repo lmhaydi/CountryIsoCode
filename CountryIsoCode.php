@@ -1507,26 +1507,19 @@ class CountryIsoCode{
             ),
         213 =>
             array (
-                'country' => 'Western Sahara',
-                'alpha_2' => 'EH',
-                'alpha_3' => 'ESH',
-                'digit_code' => '732',
-            ),
-        214 =>
-            array (
                 'country' => 'Yemen',
                 'alpha_2' => 'YE',
                 'alpha_3' => 'YEM',
                 'digit_code' => '887',
             ),
-        215 =>
+        214 =>
             array (
                 'country' => 'Zambia',
                 'alpha_2' => 'ZM',
                 'alpha_3' => 'ZMB',
                 'digit_code' => '894',
             ),
-        216 =>
+        215 =>
             array (
                 'country' => 'Zimbabwe',
                 'alpha_2' => 'ZW',
